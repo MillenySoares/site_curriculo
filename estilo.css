@@ -1,0 +1,186 @@
+body{
+    margin:0;
+}
+.div-horizontal{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.menu-principal{
+    width: 20%;
+    height: 100%;
+    background-color: #800000;
+}
+.conteudo-principal{
+    width:80%;
+    overflow-y: scroll;
+}
+.espacamento{
+    height: 25%;
+}
+.div-lateral-meio{
+    height:50%;
+}
+.div-imagem{
+    margin-left: 25%;
+    margin-bottom:20px;
+}
+.imagem-perfil {
+    border-radius: 100%;
+    border: 10px solid #b30000;
+}
+.div-texto{
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+}
+.font{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 56px;
+    padding-left: 40px;
+    color: #262626;
+}
+.font-subtitulo{
+    font-size: 18px !important;
+    color: #666666 !important;
+}
+.cor-vinho{
+    color: #b30000;
+}
+.sobre {
+    margin-left: 30px;
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+.descricao{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 23px;
+    padding-left: 40px;
+    margin-top: 75px;
+    color: #595959!important;
+}
+.rede{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    margin-top: 70px;
+}
+.icone{
+    text-align: center;
+    cursor: pointer;
+    width: 30px;
+    border: 15px solid  #1a1a1a;
+    margin-right: 30px;
+    border-radius: 100%;
+    color: white;
+    font-size: 32px;
+    background-color:  #1a1a1a;
+}
+.icone:hover {
+    border: 15px solid #b30000;
+    background-color: #b30000;
+}
+.divisor{
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    margin-bottom: 100px;
+}
+.font2{
+    font-family: 'Roboto Mono', monospace;
+    font-size:50px;
+    color:  #1a1a1a
+}
+.link-rede-social{
+    color: white !important;
+    text-decoration: none;
+}
+.escolaridade{
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.escola{
+    width: 70%;
+    color:  #1a1a1a;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 40px;
+    font-size: 22px;
+    margin-bottom:100px;
+    position: relative;
+}
+.link-menu {
+    color: white !important;
+    text-decoration: none;
+}
+
+.link-menu:hover {
+    color: #cc0000 !important;
+}
+.data{
+    position: absolute;
+    color: #800000;
+    top: 0px;
+    right: 0px;
+
+}
+.hobbies{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.hobbies-margin{
+    margin-top: 10%;
+}
+.hobbies-top{
+    margin-top:80px;
+    font-size: 24;
+    font-family: 'Roboto Mono', monospace;
+}
+.cor-escrita{
+    color: #1a1a1a;
+}
+.cor-icone{
+    color:#333333;
+}
+.habilidade{
+    margin-left: 40px;
+    margin-bottom: 20%;
+}
+.div-escrita-linguaguem{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 26px;
+    margin-top: 100px;
+    color:#4d4d4d;
+}
+.skills-icone{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.abiliity-icone{
+    margin-right: 35px;
+    color:#737373;
+}
+.nome{
+    font-size: 26;
+    font-family: 'Roboto Mono', monospace;
+    color: #4d4d4d
+}
+.nomes{
+    margin-top: 3%;
+}
+.font-size{
+    font-size: 22;
+}
+.interesses{
+    margin-left: 40px;
+}
+.descricao2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24;
+    color: #4d4d4d;
+}
