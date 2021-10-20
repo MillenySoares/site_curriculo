@@ -1,6 +1,9 @@
 .bg-vinho{
     background-color: #800000;
 }
+.vh-100{
+    height: 100vh;
+}
 .div-texto{
     font-family: 'Otomanopee One', sans-serif;
     text-align: center;
@@ -20,7 +23,14 @@
 .link-menu:hover {
     color: #cc0000 !important;
 }
+/*sobre*/
 .divisor{
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    margin-bottom: 100px;
+}
+.divisor-um{
     width: 100%;
     height: 1px;
     background-color: grey;
@@ -35,16 +45,16 @@
     padding-left: unset;
 }
 .scroll{
-    overflow-x: scroll;
+    overflow-y: scroll;
 }
 .sobre {
     margin-left: 30px;
-    margin-top: 200px;
-    margin-bottom: 300px;
+    margin-top: 130px;
+    margin-bottom: 200px;
 }
 .font{
     font-family: 'Roboto Mono', monospace;
-    font-size: 56px;
+    font-size: 52px;
     padding-left: 40px;
     color: #262626;
     line-height: 0.6;
@@ -67,7 +77,7 @@
     display: flex;
     flex-direction: row;
     padding-left: 40px;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 .icone{
     text-align: center;
@@ -87,6 +97,87 @@
 .link-rede-social{
     color: white !important;
     text-decoration: none;
+}
+/*escolaridade*/
+.titulo-escolaridade{
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 26px;
+}
+.escola{
+    width: 90%;
+    color:  #1a1a1a;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 40px;
+    font-size: 25px;
+    margin-bottom:100px;
+    position: relative;
+}
+.font2{
+    font-family: 'Roboto Mono', monospace;
+    font-size:50px;
+    color:  #1a1a1a
+}
+.data{
+    position: absolute;
+    color: #800000;
+    top: 0px;
+    right: 0px;
+
+}
+.escolaridade{
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+/*hobbies*/
+.hobbies{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.hobbies-top{
+    margin-top:64px;
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
+}
+.cor-icone{
+    color:#333333;
+}
+.cor-escrita{
+    color: #1a1a1a;
+}
+/*habilidades*/
+.abiliity-icone{
+    margin-right: 35px;
+    color:#737373;
+}
+.font-size{
+    font-size: 25px;
+}
+.skills-icone{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.div-escrita-linguaguem{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 26px;
+    margin-top: 100px;
+    color:#4d4d4d;
+}
+.nome{
+    font-size: 26px !important;
+    font-family: 'Roboto Mono', monospace;
+    color: #4d4d4d
+}
+/*interresses*/
+.descricao2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    color: #4d4d4d;
+}
+.interesses{
+    margin-left: 40px;
 }
 @media (max-width: 320px) {
     .div-texto{
@@ -109,9 +200,6 @@
     #menu{
         display: none;
     }
-    .divisor{
-        display: none;
-    }
     .icone {
         width: 51px;
         height: 51px;
@@ -121,10 +209,56 @@
     .sobre {
         margin-top: 110px;
         margin-left: 2px;
+        margin-bottom: 90px;
     }
     .rede {
         margin-top: 40px;
         padding-left: 0px;
+    }
+    .divisor-um{
+        display: none;
+    }
+    .data {
+        bottom: -38px;
+        top: unset;
+        left: 0px;
+        right: unset;
+        font-size: 21px;
+    }
+    .font2{
+        font-size: 35px;
+    }
+    .escolaridade{
+        margin-left: 1px;
+    }
+    .titulo-escolaridade {
+        font-size: 14px;
+    }
+    .escola{
+        width: 100%;
+        margin-bottom: 95px;
+        padding-left: 2px;
+    }
+    .mobile{
+        font-size: 15px;
+    }
+    .hobbies {
+        margin-left: 10px;
+    }
+    .ml-5{
+        margin-left: unset !important;
+    }
+    .div-escrita-linguaguem {
+        font-size: 19px;
+        margin-top: 60px;
+    }
+    .skills-icone {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 50px;
+    }
+    .interesses {
+        margin-left: 26px;
     }
 }
 @media (max-width: 375px) and (min-width: 321px){
@@ -148,7 +282,7 @@
     #menu{
         display: none;
     }
-    .divisor{
+    .divisor-um{
         display: none;
     }
     .icone {
@@ -164,6 +298,52 @@
     .rede {
         margin-top: 40px;
         padding-left: 0px;
+    }
+    .rede {
+        margin-top: 40px;
+        padding-left: 2px;
+    }
+    .data {
+        bottom: -32px;
+        top: unset;
+        left: 0px;
+        right: unset;
+        font-size: 21px;
+    }
+    .font2{
+        font-size: 44px;
+    }
+    .escolaridade{
+        margin-left: 1px;
+    }
+    .titulo-escolaridade {
+        font-size: 14px;
+    }
+    .escola{
+        width: 100%;
+        margin-bottom: 95px;
+        padding-left: 2px;
+    }
+    .mobile{
+        font-size: 15px;
+    }
+    .hobbies {
+        margin-left: 10px;
+    }
+    .ml-5, .mx-5 {
+        margin-left: unset !important;
+    }
+    .div-escrita-linguaguem{
+        font-size: 22px;
+        margin-top: 50px;
+    }
+    .skills-icone {
+        margin-top: 35px;
+        margin-bottom: 25px;
+        font-size: 50px;
+    }
+    .interesses {
+        margin-left: 10px;
     }
 }
 @media (max-width: 576px) and (min-width:  376px) {
@@ -187,7 +367,7 @@
     #menu{
         display: none;
     }
-    .divisor{
+    .divisor-um{
         display: none;
     }
     .icone {
@@ -202,6 +382,39 @@
     .rede {
         margin-top: 40px;
         padding-left: 2px;
+    }
+    .data {
+        bottom: -32px;
+        top: unset;
+        left: 0px;
+        right: unset;
+        font-size: 21px;
+    }
+    .escolaridade{
+        margin-left: 1px;
+    }
+    .titulo-escolaridade{
+        font-size: 17px;
+    }
+    .escola{
+        width: 100%;
+        margin-bottom: 95px;
+        padding-left: 2px;
+    }
+    .mobile{
+        font-size: 15px;
+    }
+    .hobbies {
+        margin-left: 15px;
+    }
+    .ml-5{
+        margin-left: unset !important;
+    }
+    .div-escrita-linguaguem{
+        margin-top: 50px;
+    }
+    .interesses {
+        margin-left: 21px;
     }
 }
   
@@ -225,7 +438,7 @@
     #menu{
         display: none;
     }
-    .divisor{
+    .divisor-um{
         display: none;
     }
     .icone {
@@ -240,6 +453,18 @@
     .rede {
         margin-top: 58px;
         padding-left: 10px;
+    }
+    .data{
+        font-size: 18px;
+    }
+    .escola{
+        width: 96%;
+    }
+    .titulo-escolaridade{
+        font-size: 19px;
+    }
+    .interesses {
+        margin-left: 14px;
     }
 }
 @media (max-width: 1200px) and (min-width: 993px) {
@@ -272,10 +497,31 @@
         width: 56px;
         font-size: 19px;
     }
+    .escola{
+        padding-left: 26px;
+        width: 100%;
+    }
+    .titulo-escolaridade{
+        font-size: 22px;
+    }
+    .data{
+        font-size: 18px;
+    }
+    .habilidade{
+        padding-left: 50px;
+    }
 }
-@media (max-width: 1440px) and (min-width: 1200px) {}
+@media (max-width: 1440px) and (min-width: 1200px) {
+    .sobre{
+        margin-bottom: 150px;
+        margin-left: 6px;
+    }
+}
 @media (max-width: 2560px) and (min-width: 1441px) {
     .pl-5, .px-5 {
         padding-left: 11.5rem!important;
     }    
+    .bg-vinho{
+        padding-top: 136px;
+    }
 }
